@@ -1,0 +1,25 @@
+// FONT mixins
+
+@mixin fontlight {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin fontregular{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin fontsemibold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin fontbold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
