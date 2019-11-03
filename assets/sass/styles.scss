@@ -26,14 +26,24 @@ body{
   padding-right: 5%;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin:0;
+  padding: 0;
+}
+
 
 // header
 
 .header{
   background-image: url("../../images/background.png");
-  background-color: rgba(41, 17, 84, 0.74);
+  background-color: rgba(41, 17, 84, 0.90);
+  min-height: 740px;
 }
-
+// menu
 .menu{
   display:flex;
   padding-top: 0px;
@@ -53,9 +63,25 @@ body{
 
   li{
     margin-left: 20px;
+    color: rgb(242, 242, 242);
   }
 }
-
 .button{
   margin-left: auto;
+}
+
+// header text
+
+.header-title{
+  @include headerfont;
+  margin-top: 140px;
+}
+
+.header-text{
+  @include headertext;
+}
+
+.header-btns{
+  margin-top: 50px;
+
 }

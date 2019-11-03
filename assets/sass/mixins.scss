@@ -27,8 +27,22 @@
 // FONT styles
 
 @mixin menufont {
-  @include fontsemibold;
+  @include fontregular;
   font-style: normal;
   text-transform: uppercase;
   font-size: 1.25rem;
+}
+
+@mixin headerfont{
+  @include fontbold;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: rgb(233, 232, 233);
+}
+
+@mixin headertext {
+  @include fontsemibold;
+  font-size: 1.5rem;
+  color: rgb(233, 232, 233);
 }
