@@ -25,3 +25,10 @@
 }
 
 // FONT styles
+
+@mixin menufont {
+  @include fontsemibold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
