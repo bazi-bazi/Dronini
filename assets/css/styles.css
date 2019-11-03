@@ -39,3 +39,13 @@ body {
 .container-inner {
   padding-left: 5%;
   padding-right: 5%; }
+
+.header {
+  background-image: url("../../images/background.png");
+  background-color: rgba(41, 17, 84, 0.74); }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 25px; }
