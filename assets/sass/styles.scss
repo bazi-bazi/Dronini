@@ -93,7 +93,11 @@ p {
   text-shadow: 4px 3px 12px rgba(33,33,32,0.86);
 }
 
-.header-btns{
+.header-btns button{
   margin-top: 50px;
   @include mainbutton;
+}
+.header-btns button:last-child{
+  margin-left: 20px;
+  background-color: rgba(62, 198, 72, 0.6);
 }

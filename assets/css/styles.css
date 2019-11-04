@@ -96,7 +96,10 @@ p {
   border-radius: 20px;
   font-size: 1.125rem;
   color: #f2f2f2;
-  padding: 7px 20px; }
+  padding: 7px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .header-title {
   font-family: 'Source Sans Pro', sans-serif;
@@ -117,11 +120,18 @@ p {
   color: #f2f2f2;
   text-shadow: 4px 3px 12px rgba(33, 33, 32, 0.86); }
 
-.header-btns {
+.header-btns button {
   margin-top: 50px;
-  background-color: transparent;
+  background-color: rgba(126, 62, 198, 0.7);
   border: 1px solid #f2f2f2;
   border-radius: 20px;
   font-size: 1.125rem;
   color: #f2f2f2;
-  padding: 7px 20px; }
+  padding: 7px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+
+.header-btns button:last-child {
+  margin-left: 20px;
+  background-color: rgba(62, 198, 72, 0.6); }

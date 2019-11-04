@@ -56,13 +56,15 @@
   font-size: 1.125rem;
   color: $textcolorlight;
   padding: 7px 20px;
+  @include fontsemibold;
 }
 
 @mixin mainbutton {
-  background-color: transparent;
+  background-color: rgba(126, 62, 198, 0.7);
   border:1px solid $textcolorlight;
   border-radius: 20px;
   font-size: 1.125rem;
   color: $textcolorlight;
   padding: 7px 20px;
+  @include fontsemibold;
 }
