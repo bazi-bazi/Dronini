@@ -60,7 +60,6 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: auto;
   height: 7vh; }
 
 .logo {
@@ -74,7 +73,8 @@ p {
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: 50px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -87,8 +87,16 @@ p {
       text-decoration: none;
       color: #f2f2f2; }
 
-.button {
-  margin-left: auto; }
+.contact-btn {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  font-size: 1.125rem;
+  color: #f2f2f2;
+  padding: 7px 20px; }
 
 .header-title {
   font-family: 'Source Sans Pro', sans-serif;
@@ -110,4 +118,10 @@ p {
   text-shadow: 4px 3px 12px rgba(33, 33, 32, 0.86); }
 
 .header-btns {
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  font-size: 1.125rem;
+  color: #f2f2f2;
+  padding: 7px 20px; }

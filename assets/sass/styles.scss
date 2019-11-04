@@ -51,7 +51,7 @@ p {
   display:flex;
   padding-top: 0px;
   align-items: center;
-  margin: auto;
+
   height: 7vh;
 }
  .logo{
@@ -61,7 +61,8 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: 50px;
   @include menufont;
 
   li{
@@ -74,8 +75,9 @@ p {
     }
   }
 }
-.button{
-  margin-left: auto;
+.contact-btn{
+  justify-content: flex-end;
+  @include borderbutton;
 }
 
 // header text
@@ -93,5 +95,5 @@ p {
 
 .header-btns{
   margin-top: 50px;
-
+  @include mainbutton;
 }
