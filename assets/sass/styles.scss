@@ -2,6 +2,9 @@
 @import 'mixins.scss';
 
 
+// Variables
+
+$textcolorlight: rgb(242, 242, 242);
 
 // MAIN styles
 
@@ -13,11 +16,11 @@
 
 body{
   font-size: 16px;
-  width: 1920px;
+
 }
 
 .conteiner-auter{
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -41,7 +44,7 @@ p {
 .header{
   background-image: url("../../images/background.png");
   background-color: rgba(41, 17, 84, 0.90);
-  min-height: 740px;
+  min-height: 75vh;
 }
 // menu
 .menu{
@@ -63,7 +66,12 @@ p {
 
   li{
     margin-left: 20px;
-    color: rgb(242, 242, 242);
+
+
+    .menu-items__list{
+      text-decoration: none;
+      color: $textcolorlight;
+    }
   }
 }
 .button{
@@ -75,10 +83,12 @@ p {
 .header-title{
   @include headerfont;
   margin-top: 140px;
+  text-shadow: 4px 3px 12px rgba(33,33,32,0.86);
 }
 
 .header-text{
   @include headertext;
+  text-shadow: 4px 3px 12px rgba(33,33,32,0.86);
 }
 
 .header-btns{

@@ -30,7 +30,7 @@
   @include fontregular;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 @mixin headerfont{
@@ -38,11 +38,11 @@
   font-style: normal;
   text-transform: capitalize;
   font-size: 3rem;
-  color: rgb(233, 232, 233);
+  color: $textcolorlight;
 }
 
 @mixin headertext {
   @include fontsemibold;
   font-size: 1.5rem;
-  color: rgb(233, 232, 233);
+  color: $textcolorlight;
 }
