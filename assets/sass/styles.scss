@@ -107,24 +107,28 @@ p {
 // Media quaries
 @media (max-width: 767px){
   .menu{
+    display: block;
+    text-align: center;
     padding-top: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+
   }
   .logo{
-    margin-right: 0;
+    align-items: center;
+    margin-right: none;
+    margin-bottom: 15px;
   }
   .menu-items{
 
-    flex-wrap: wrap;
+    display: block;
     margin-right: 0px;
+    margin-bottom: 15px;
 
 
     li{
+
       margin-left: 0px;
       margin-right: 20px;
+      margin-bottom: 5px;
     }
   }
 
