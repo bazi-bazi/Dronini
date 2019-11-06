@@ -49,6 +49,9 @@ p {
 
 .header {
   background-image: url("../../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: rgba(41, 17, 84, 0.9);
   min-height: 75vh; }
 
@@ -135,3 +138,25 @@ p {
 .header-btns button:last-child {
   margin-left: 20px;
   background-color: rgba(62, 198, 72, 0.6); }
+
+@media (max-width: 767px) {
+  .menu {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .logo {
+    margin-right: 0; }
+  .menu-items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px; }
+    .menu-items li {
+      margin-left: 0px;
+      margin-right: 20px; } }
