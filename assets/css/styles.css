@@ -160,3 +160,9 @@ p {
       margin-bottom: 5px; }
   .header-title {
     margin-top: 190px; } }
+
+.features-items {
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
