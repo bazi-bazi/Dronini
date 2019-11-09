@@ -171,6 +171,7 @@ p {
   height: 60px; }
 
 .featured-items__item .featured-items__title {
+  margin-top: 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -178,3 +179,12 @@ p {
   color: #d94126;
   font-style: normal;
   text-transform: capitalize; }
+
+.featured-items__item .featured-items__text {
+  margin-top: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: #2b2b2b;
+  font-style: normal; }

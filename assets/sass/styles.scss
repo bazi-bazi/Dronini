@@ -6,6 +6,7 @@
 
 $textcolorlight: rgb(242, 242, 242);
 $sectiontitlecolor:#d94126;
+$sectiontextcolor:hsl(0, 0%, 17%);
 
 // MAIN styles
 
@@ -150,9 +151,11 @@ p {
   }
 
   .featured-items__title{
+    margin-top: 10px;
     @include sectiontitle;
   }
   .featured-items__text{
-    
+    margin-top: 5px;
+    @include sectiontext;
   }
 }

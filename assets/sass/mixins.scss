@@ -54,6 +54,14 @@
   font-style: normal;
   text-transform: capitalize;
 }
+
+@mixin sectiontext {
+  @include fontregular;
+  font-size: 1.125rem;
+  color: $sectiontextcolor;
+  font-style: normal;
+  
+}
 // buttons
 
 @mixin borderbutton {
