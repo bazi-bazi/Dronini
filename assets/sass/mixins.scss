@@ -47,6 +47,13 @@
   color: $textcolorlight;
 }
 
+@mixin sectiontitle {
+  @include fontsemibold;
+  font-size: 1.5rem;
+  color: $sectiontitlecolor;
+  font-style: normal;
+  text-transform: capitalize;
+}
 // buttons
 
 @mixin borderbutton {

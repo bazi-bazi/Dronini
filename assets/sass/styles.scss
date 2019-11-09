@@ -5,6 +5,7 @@
 // Variables
 
 $textcolorlight: rgb(242, 242, 242);
+$sectiontitlecolor:#d94126;
 
 // MAIN styles
 
@@ -142,4 +143,16 @@ p {
 .features-items{
   margin-top: 120px;
   display: flex;
+}
+.featured-items__item{
+  img{
+    height: 60px;
+  }
+
+  .featured-items__title{
+    @include sectiontitle;
+  }
+  .featured-items__text{
+    
+  }
 }

@@ -166,3 +166,15 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.featured-items__item img {
+  height: 60px; }
+
+.featured-items__item .featured-items__title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #d94126;
+  font-style: normal;
+  text-transform: capitalize; }
