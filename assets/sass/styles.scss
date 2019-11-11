@@ -159,3 +159,18 @@ p {
     @include sectiontext;
   }
 }
+
+.article-title{
+  margin-top: 120px;
+  @include sectiontitle;
+  font-size: 1.875rem;
+}
+.article-text{
+  margin-top: 10px;
+  @include sectiontext;
+}
+.article-list{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
