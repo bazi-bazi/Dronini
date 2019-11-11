@@ -161,8 +161,12 @@ p {
   .header-title {
     margin-top: 190px; } }
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f6f6f6; }
+
 .features-items {
-  margin-top: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -189,8 +193,15 @@ p {
   color: #2b2b2b;
   font-style: normal; }
 
+.article {
+  margin-top: 40px;
+  background-image: url("../../images/droneback.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 500px;
+  padding-top: 80px; }
+
 .article-title {
-  margin-top: 120px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -210,6 +221,7 @@ p {
   font-style: normal; }
 
 .article-list {
+  margin-bottom: 40px;
   margin-top: 40px;
   display: -ms-grid;
   display: grid;

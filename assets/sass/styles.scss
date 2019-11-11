@@ -141,8 +141,13 @@ p {
 }
 
 // features
+.features{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f6f6f6;
+}
 .features-items{
-  margin-top: 120px;
+
   display: flex;
 }
 .featured-items__item{
@@ -160,8 +165,18 @@ p {
   }
 }
 
+
+.article{
+  margin-top: 40px;
+  background-image: url("../../images/droneback.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 500px;
+  padding-top:80px;
+
+}
 .article-title{
-  margin-top: 120px;
+
   @include sectiontitle;
   font-size: 1.875rem;
 }
@@ -170,6 +185,8 @@ p {
   @include sectiontext;
 }
 .article-list{
+
+  margin-bottom: 40px;
   margin-top: 40px;
   display: grid;
   grid-template-columns: 40% 40%;
