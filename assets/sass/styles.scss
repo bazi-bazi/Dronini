@@ -148,8 +148,22 @@ p {
 }
 .features-items{
 
+	animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   display: flex;
 }
+@keyframes scale-in-ver-center {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+
+
 .featured-items__item{
   img{
     height: 60px;
