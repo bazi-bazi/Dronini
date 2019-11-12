@@ -58,7 +58,7 @@
 @mixin sectiontext {
   @include fontregular;
   font-size: 1.125rem;
-  color: $sectiontextcolor;
+  color: $bodytext;
   font-style: normal;
 
 }
