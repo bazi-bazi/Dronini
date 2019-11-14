@@ -310,3 +310,15 @@ p {
   color: #3f4e76;
   font-style: normal;
   font-size: 16px; }
+
+@media (max-width: 767px) {
+  .features-items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .featured-items__item {
+    margin-top: 40px; }
+  .features {
+    padding-top: 20px; }
+  .article {
+    background-image: none;
+    background-color: #fff; } }
