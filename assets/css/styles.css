@@ -133,7 +133,14 @@ p {
   padding: 7px 20px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  .header-btns button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
 
 .header-btns button:last-child {
   margin-left: 20px;

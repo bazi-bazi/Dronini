@@ -101,6 +101,10 @@ p {
 .header-btns button{
   margin-top: 50px;
   @include mainbutton;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .header-btns button:last-child{
   margin-left: 20px;
