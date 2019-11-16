@@ -276,3 +276,15 @@ p {
 
   }
   }
+
+// services-items
+
+.services{
+  background-color: #f6f6f6;
+
+  .services-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+}

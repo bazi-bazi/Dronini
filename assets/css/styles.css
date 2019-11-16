@@ -336,3 +336,13 @@ p {
   .article {
     background-image: none;
     background-color: #fff; } }
+
+.services {
+  background-color: #f6f6f6; }
+  .services .services-items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    -ms-grid-rows: 50% 50%;
+    grid-template-rows: 50% 50%; }
