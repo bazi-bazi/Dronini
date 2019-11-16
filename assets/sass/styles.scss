@@ -83,6 +83,10 @@ p {
 .contact-btn{
   justify-content: flex-end;
   @include borderbutton;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 // header text
