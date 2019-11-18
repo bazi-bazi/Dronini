@@ -286,5 +286,15 @@ p {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    grid-gap: 20px;
+
+    img{
+      width: 100%;
+
+    }
+    .services-items__text{
+      text-align: center;
+      padding-top: 120px;
+    }
   }
 }

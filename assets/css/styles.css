@@ -345,4 +345,10 @@ p {
     -ms-grid-columns: 50% 50%;
     grid-template-columns: 50% 50%;
     -ms-grid-rows: 50% 50%;
-    grid-template-rows: 50% 50%; }
+    grid-template-rows: 50% 50%;
+    grid-gap: 20px; }
+    .services .services-items img {
+      width: 100%; }
+    .services .services-items .services-items__text {
+      text-align: center;
+      padding-top: 120px; }
