@@ -351,4 +351,20 @@ p {
       width: 100%; }
     .services .services-items .services-items__text {
       text-align: center;
-      padding-top: 120px; }
+      padding-top: 320px; }
+      .services .services-items .services-items__text .services-items__title {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #d94126;
+        font-style: normal;
+        text-transform: capitalize; }
+      .services .services-items .services-items__text .services-items__slogan {
+        margin-top: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.125rem;
+        color: #3f4e76;
+        font-style: normal; }

@@ -294,7 +294,15 @@ p {
     }
     .services-items__text{
       text-align: center;
-      padding-top: 120px;
+      padding-top: 320px;
+
+      .services-items__title{
+        @include sectiontitle;
+      }
+      .services-items__slogan{
+        margin-top: 10px;
+        @include sectiontext;
+      }
     }
   }
 }
