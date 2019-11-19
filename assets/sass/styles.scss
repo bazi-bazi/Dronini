@@ -282,6 +282,7 @@ p {
 .services{
   background-color: #f6f6f6;
 
+
   .services-items{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -303,6 +304,24 @@ p {
         margin-top: 10px;
         @include sectiontext;
       }
+    }
+  }
+}
+
+// Media quaries
+@media (max-width: 767px){
+  .services .services-items .services-items__text{
+    padding-top: 10px;
+    text-align: left;
+
+    .services-items__title{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .services-items__slogan{
+      padding-left: 10px;
+      padding-right: 10px;
+
     }
   }
 }

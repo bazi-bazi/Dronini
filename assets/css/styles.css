@@ -368,3 +368,14 @@ p {
         font-size: 1.125rem;
         color: #3f4e76;
         font-style: normal; }
+
+@media (max-width: 767px) {
+  .services .services-items .services-items__text {
+    padding-top: 10px;
+    text-align: left; }
+    .services .services-items .services-items__text .services-items__title {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .services .services-items .services-items__text .services-items__slogan {
+      padding-left: 10px;
+      padding-right: 10px; } }
