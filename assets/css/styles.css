@@ -379,3 +379,25 @@ p {
     .services .services-items .services-items__text .services-items__slogan {
       padding-left: 10px;
       padding-right: 10px; } }
+
+@media (max-width: 991px) {
+  .services .services-items .services-items__text {
+    padding-top: 10px;
+    text-align: left; }
+    .services .services-items .services-items__text .services-items__title {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .services .services-items .services-items__text .services-items__slogan {
+      padding-left: 10px;
+      padding-right: 10px; } }
+
+@media (max-width: 1199px) {
+  .services .services-items .services-items__text {
+    padding-top: 10px;
+    text-align: left; }
+    .services .services-items .services-items__text .services-items__title {
+      padding-left: 20px;
+      padding-right: 10px; }
+    .services .services-items .services-items__text .services-items__slogan {
+      padding-left: 20px;
+      padding-right: 10px; } }
