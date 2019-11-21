@@ -295,7 +295,8 @@ p {
     }
     .services-items__text{
       text-align: center;
-      padding-top: 320px;
+      padding-top: 200px;
+      vertical-align: middle;
 
       .services-items__title{
         @include sectiontitle;
@@ -304,6 +305,11 @@ p {
         margin-top: 10px;
         @include sectiontext;
       }
+    }
+    .services-items__text button{
+      @include mainbutton;
+      margin-top: 10px;
+      margin-left: 30px;
     }
   }
 }
@@ -322,6 +328,9 @@ p {
       padding-left: 10px;
       padding-right: 10px;
 
+    }
+    .services-items__text button{
+      margin-left: 10px;
     }
   }
 }
