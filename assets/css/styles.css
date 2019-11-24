@@ -381,6 +381,8 @@ p {
       font-style: normal;
       margin-top: 10px;
       margin-left: 30px; }
+      .services .services-items .services-items__text button:hover {
+        background-color: #6f27c1; }
 
 @media (max-width: 767px) {
   .services .services-items .services-items__text {

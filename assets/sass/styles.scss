@@ -310,6 +310,10 @@ p {
       @include mainbutton;
       margin-top: 10px;
       margin-left: 30px;
+
+      &:hover{
+        background-color: rgb(111, 39, 193);
+      }
     }
   }
 }
