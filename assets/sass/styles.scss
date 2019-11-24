@@ -370,3 +370,15 @@ p {
     }
   }
 }
+
+// subscribe
+
+.subscribe{
+  margin-top: 10px;
+  min-height: 480px;
+  background-image:
+  linear-gradient(to bottom, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)),
+  url('../../images/subscribe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
