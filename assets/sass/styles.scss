@@ -375,10 +375,36 @@ p {
 
 .subscribe{
   margin-top: 10px;
-  min-height: 480px;
+  height: 480px;
   background-image:
   linear-gradient(to bottom, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)),
   url('../../images/subscribe.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+.subscribe-items{
+  text-align: center;
+  padding-top: 20%;
+  h3{
+    @include headerfont;
+  }
+.subscribe-items__btn{
+  padding-top: 20px;
+
+  .subscribe-items__btn__email{
+    border: 1px solid $sectiontitlecolor;
+    border-radius: 20px;
+    background-color: rgba(#d44436, 0.6);
+    background-size: cover;
+    background-repeat: repeat;
+
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 1.125rem;
+    @include fontlight;
+    
+  }
+}
+
 }
