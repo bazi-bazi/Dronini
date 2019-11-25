@@ -377,7 +377,7 @@ p {
   margin-top: 10px;
   height: 480px;
   background-image:
-  linear-gradient(to bottom, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)),
+  linear-gradient(to bottom, rgba(224, 105, 0, 0.73), rgba(203, 0, 53, 0.72)),
   url('../../images/subscribe.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -392,18 +392,19 @@ p {
   padding-top: 20px;
 
   .subscribe-items__btn__email{
-    border: 1px solid $sectiontitlecolor;
+    border: 2px solid $sectiontitlecolor;
     border-radius: 20px;
-    background-color: rgba(#d44436, 0.6);
+    background-color: rgba(#d44436, 0.4);
     background-size: cover;
     background-repeat: repeat;
+    padding: 10px;
 
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
     font-size: 1.125rem;
     @include fontlight;
-    
+
   }
 }
 

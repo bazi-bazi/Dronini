@@ -422,10 +422,10 @@ p {
 .subscribe {
   margin-top: 10px;
   height: 480px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(203, 0, 53, 0.72)), to(rgba(224, 105, 0, 0.73))), url("../../images/subscribe.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)), url("../../images/subscribe.jpg");
-  background-image: -o-linear-gradient(top, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)), url("../../images/subscribe.jpg");
-  background-image: linear-gradient(to bottom, rgba(203, 0, 53, 0.72), rgba(224, 105, 0, 0.73)), url("../../images/subscribe.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(224, 105, 0, 0.73)), to(rgba(203, 0, 53, 0.72))), url("../../images/subscribe.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(224, 105, 0, 0.73), rgba(203, 0, 53, 0.72)), url("../../images/subscribe.jpg");
+  background-image: -o-linear-gradient(top, rgba(224, 105, 0, 0.73), rgba(203, 0, 53, 0.72)), url("../../images/subscribe.jpg");
+  background-image: linear-gradient(to bottom, rgba(224, 105, 0, 0.73), rgba(203, 0, 53, 0.72)), url("../../images/subscribe.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -443,11 +443,12 @@ p {
   .subscribe-items .subscribe-items__btn {
     padding-top: 20px; }
     .subscribe-items .subscribe-items__btn .subscribe-items__btn__email {
-      border: 1px solid #d94126;
+      border: 2px solid #d94126;
       border-radius: 20px;
-      background-color: rgba(212, 68, 54, 0.6);
+      background-color: rgba(212, 68, 54, 0.4);
       background-size: cover;
-      background-repeat: repeat; }
+      background-repeat: repeat;
+      padding: 10px; }
     .subscribe-items .subscribe-items__btn ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: white;
