@@ -393,11 +393,11 @@ p {
 
   .subscribe-items__btn__email{
     border: 2px solid $sectiontitlecolor;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: rgba(#d44436, 0.4);
     background-size: cover;
     background-repeat: repeat;
-    padding: 10px;
+    padding: 20px 60px;
 
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -410,8 +410,9 @@ p {
      @include borderbutton;
      background-color: white;
      color:$sectiontitlecolor;
-     margin-left: -40px;
-     padding: 10px 20px;
+     margin-left: -60px;
+     padding: 20px 40px;
+     border-radius: 30px;
 
   }
 }

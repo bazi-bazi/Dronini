@@ -444,11 +444,11 @@ p {
     padding-top: 20px; }
     .subscribe-items .subscribe-items__btn .subscribe-items__btn__email {
       border: 2px solid #d94126;
-      border-radius: 20px;
+      border-radius: 30px;
       background-color: rgba(212, 68, 54, 0.4);
       background-size: cover;
       background-repeat: repeat;
-      padding: 10px; }
+      padding: 20px 60px; }
     .subscribe-items .subscribe-items__btn ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: white;
@@ -468,5 +468,6 @@ p {
       font-style: normal;
       background-color: white;
       color: #d94126;
-      margin-left: -40px;
-      padding: 10px 20px; }
+      margin-left: -60px;
+      padding: 20px 40px;
+      border-radius: 30px; }
