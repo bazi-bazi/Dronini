@@ -406,6 +406,14 @@ p {
     @include fontlight;
 
   }
+   .subscribe-items__btn__send{
+     @include borderbutton;
+     background-color: white;
+     color:$sectiontitlecolor;
+     margin-left: -40px;
+     padding: 10px 20px;
+
+  }
 }
 
 }
