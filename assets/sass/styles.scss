@@ -384,7 +384,7 @@ p {
 }
 .subscribe-items{
   text-align: center;
-  padding-top: 20%;
+  padding-top: 10%;
   h3{
     @include headerfont;
   }
@@ -417,4 +417,10 @@ p {
   }
 }
 
+}
+
+// map
+.map-items{
+  background-image: url('../../images/map.jpg');
+  min-height: 600px;
 }

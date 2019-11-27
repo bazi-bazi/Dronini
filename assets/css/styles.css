@@ -431,7 +431,7 @@ p {
 
 .subscribe-items {
   text-align: center;
-  padding-top: 20%; }
+  padding-top: 10%; }
   .subscribe-items h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -471,3 +471,7 @@ p {
       margin-left: -60px;
       padding: 20px 40px;
       border-radius: 30px; }
+
+.map-items {
+  background-image: url("../../images/map.jpg");
+  min-height: 600px; }
