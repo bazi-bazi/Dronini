@@ -451,3 +451,22 @@ p {
   margin-top: 200px;
   margin-left: 450px;
 }
+
+// footer
+footer{
+  min-height: 240px;
+}
+footer h4{
+  margin-top: 40px;
+  text-align: center;
+  @include fontsemibold;
+  color: $bodytext;
+  font-size: 1.125rem;
+}
+footer p{
+  margin-top: 10px;
+  text-align: center;
+  @include fontlight;
+  color: $bodytext;
+  font-size: 1.1rem;
+}

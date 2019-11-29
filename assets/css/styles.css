@@ -500,3 +500,24 @@ p {
   position: absolute;
   margin-top: 200px;
   margin-left: 450px; }
+
+footer {
+  min-height: 240px; }
+
+footer h4 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #3f4e76;
+  font-size: 1.125rem; }
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #3f4e76;
+  font-size: 1.1rem; }
