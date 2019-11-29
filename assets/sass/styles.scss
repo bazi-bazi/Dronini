@@ -423,4 +423,31 @@ p {
 .map-items{
   background-image: url('../../images/map.jpg');
   min-height: 600px;
+
+
+}
+.map-pin__1{
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 900px;
+}
+.map-pin__2{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.map-pin__3{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 500px;
+}
+.map-pin__4{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 1100px;
+}
+.map-pin__5{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 450px;
 }
