@@ -521,3 +521,9 @@ footer p {
   font-style: normal;
   color: #3f4e76;
   font-size: 1.1rem; }
+
+@media (max-width: 767px) {
+  .subscribe .subscribe-items__btn {
+    padding-top: 20px; }
+    .subscribe .subscribe-items__btn .subscribe-items__btn__email {
+      padding: 20px 30px; } }

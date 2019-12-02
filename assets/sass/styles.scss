@@ -470,3 +470,18 @@ footer p{
   color: $bodytext;
   font-size: 1.1rem;
 }
+
+// Media quaries
+@media (max-width: 767px) {
+  .subscribe{
+  .subscribe-items__btn{
+    padding-top: 20px;
+
+    .subscribe-items__btn__email{
+    
+      padding: 20px 30px;
+
+    }
+  }
+}
+}
